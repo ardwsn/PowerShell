@@ -1,3 +1,2 @@
-$365Credential = Get-Credential
-$Session = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://outlook.office365.com/powershell-liveid/ -Credential $365Credential -Authentication Basic -AllowRedirection
-Import-PSSession $Session
+$UserPrincipalName = Read-Host -Prompt "Enter the credentials of the 365 administrator account"
+Connect-EXOPSSession -UserPrincipalName $UserPrincipalName
