@@ -1,7 +1,3 @@
-Microsoft Azure Active Directory Module for  https://www.microsoft.com/en-us/download/details.aspx?id=41950
-
-.NET Framework 3.5
-
 In order to use the cmdlets for Exchange Online, you will need to ensure that the following prerequisites have been fulfilled:
 
 1. Ensure that the network that you are connected to is set to "Private" in Windows 10 Network & Internet settings, and not "Public"
